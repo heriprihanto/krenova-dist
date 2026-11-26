@@ -1,0 +1,18 @@
+import{A as e,M as t,O as n,R as r,T as i,W as a,j as o,rt as s,t as c}from"./ui-DnsUKVzW.js";import{r as l}from"./bootstrap-Dk4eCz5J.js";var u={class:`grid grid-cols-1 sm:grid-cols-2 gap-4`},d={class:`glass-card rounded-2xl p-4 flex items-center justify-between border border-white/5 bg-indigo-500/5`},f={class:`flex items-center gap-3`},p={class:`w-9 h-9 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400`},m={class:`glass-card rounded-2xl p-4 flex items-center justify-between border border-white/5 bg-emerald-500/5`},h={class:`flex items-center gap-3`},g={class:`w-9 h-9 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400`},_={__name:`PanelAdminPenilaian`,setup(_){return(_,v)=>(r(),n(`div`,{id:`panel-admin-penilaian`,class:s([`dashboard-panel space-y-6`,{hidden:a(c)!==`panel-admin-penilaian`}])},[i(`div`,u,[i(`div`,d,[i(`div`,f,[i(`div`,p,[t(l,{name:`graduation-cap`,class:`w-5 h-5`})]),v[0]||=o(),v[1]||=i(`div`,null,[i(`span`,{class:`text-[10px] text-slate-500 font-semibold uppercase tracking-wider block`},`Rata-rata
+                                                    Kategori
+                                                    Pelajar`),o(),i(`strong`,{id:`admin-eval-avg-pelajar`,class:`text-lg font-extrabold text-white font-mono`},`0.00`)],-1)]),v[2]||=o(),v[3]||=i(`span`,{id:`admin-eval-count-pelajar`,class:`text-[10px] text-slate-400 bg-white/5 px-2.5 py-1 rounded-lg border border-white/5`},`0
+                                            Proposal`,-1)]),v[8]||=o(),i(`div`,m,[i(`div`,h,[i(`div`,g,[t(l,{name:`users`,class:`w-5 h-5`})]),v[4]||=o(),v[5]||=i(`div`,null,[i(`span`,{class:`text-[10px] text-slate-500 font-semibold uppercase tracking-wider block`},`Rata-rata
+                                                    Kategori
+                                                    Umum`),o(),i(`strong`,{id:`admin-eval-avg-umum`,class:`text-lg font-extrabold text-white font-mono`},`0.00`)],-1)]),v[6]||=o(),v[7]||=i(`span`,{id:`admin-eval-count-umum`,class:`text-[10px] text-slate-400 bg-white/5 px-2.5 py-1 rounded-lg border border-white/5`},`0
+                                            Proposal`,-1)])]),v[9]||=e(` <div class="glass-card rounded-2xl overflow-hidden border border-white/5"><div class="overflow-x-auto"><table class="w-full text-left text-sm text-slate-300"><thead class="bg-[#1b233d] text-xs uppercase tracking-wider font-semibold text-slate-400 border-b border-white/5"><tr><th class="px-6 py-4">
+                                                        Judul Proposal
+                                                    </th> <th class="px-6 py-4">
+                                                        Inovator
+                                                    </th> <th class="px-6 py-4">
+                                                        Nilai Rata-rata
+                                                    </th> <th class="px-6 py-4 text-right">
+                                                        Aksi
+                                                    </th></tr></thead> <tbody id="table-admin-penilaian-body" class="divide-y divide-white/5"></tbody></table></div> <div id="table-admin-penilaian-empty" class="p-12 text-center text-slate-500 hidden">
+                                        Belum ada penilaian proposal yang
+                                        terekam.
+                                    </div></div>`,2)],2))}};export{_ as default};
